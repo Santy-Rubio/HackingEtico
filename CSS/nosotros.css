@@ -1,0 +1,113 @@
+*{
+    top: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+}
+
+footer{
+    background: rgb(38,38,38);
+    background: linear-gradient(180deg, rgba(38,38,38,1) 62%, rgba(255,255,255,1) 87%);
+}
+
+p{
+    color: #fff;
+    font-size: 18px;
+    padding: 0 2%;
+}
+
+h2{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 6%;
+    border-bottom: #fff 2px solid ;
+}
+
+h4{
+    color: #fff;
+    margin: 2% 0;
+    border: #fff 2px solid;
+    border-radius: 25px;
+    padding: 10px 25px;
+    font-size: 28px;
+    background-color: #0e6b0e;
+}
+
+.container{
+    margin-top: 10%;
+}
+
+.slide-in-bck-left {
+	-webkit-animation: slide-in-bck-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-bck-left 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    opacity: 0;
+}
+
+@-webkit-keyframes slide-in-bck-left {
+    0% {
+        -webkit-transform: translateZ(700px) translateX(-400px);
+        transform: translateZ(700px) translateX(-400px);
+        opacity: 0;
+    }100% {
+    -webkit-transform: translateZ(0) translateX(0);
+    transform: translateZ(0) translateX(0);
+    opacity: 1;
+    }
+}
+
+@keyframes slide-in-bck-left {
+    0% {
+    -webkit-transform: translateZ(700px) translateX(-400px);
+    transform: translateZ(700px) translateX(-400px);
+    opacity: 0;
+    }100% {
+    -webkit-transform: translateZ(0) translateX(0);
+    transform: translateZ(0) translateX(0);
+    opacity: 1;
+    }
+}
+
+.slide-in-bck-right {
+	-webkit-animation: slide-in-bck-right 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	animation: slide-in-bck-right 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    opacity: 0;
+}
+
+@-webkit-keyframes slide-in-bck-right {
+    0% {
+    -webkit-transform: translateZ(700px) translateX(400px);
+    transform: translateZ(700px) translateX(400px);
+    opacity: 0;
+    }100% {
+    -webkit-transform: translateZ(0) translateX(0);
+    transform: translateZ(0) translateX(0);
+    opacity: 1;
+    }
+}
+@keyframes slide-in-bck-right {
+    0% {
+    -webkit-transform: translateZ(700px) translateX(400px);
+    transform: translateZ(700px) translateX(400px);
+    opacity: 0;
+    }100% {
+    -webkit-transform: translateZ(0) translateX(0);
+    transform: translateZ(0) translateX(0);
+    opacity: 1;
+    }
+}
+
+.Info-footer{
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #0e6b0e;
+    border-radius: 25px;
+    padding: 20px 0px;
+    margin: 35px 0px;
+}
+
+.visible{
+    opacity: 1;
+}
